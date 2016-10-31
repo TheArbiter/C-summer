@@ -1,0 +1,76 @@
+/*
+static Edge clVisited(Agent agent, Graph g, Edge *move, int numMoves){
+  
+   //mVisit = minimum Visits
+   //mWeight = minimum Weight
+   //lVisited = least Visited
+   int mVisit, mWeight = 0;
+   int numLVisited, numMWeight = 0;
+   int i = 0;
+  
+   Edge *lVisited = malloc(sizeof(Edge) *numMoves);
+   assert(lVisited != NULL);
+   Edge *minWeight = NULL;
+   Edge turn;
+   
+     
+   if(numMoves > 1){
+      mVisit = agent->visits[move[0].w];
+      for(i = 0; i < numMoves; i++){
+         if(agent->visits[move[i].w] < mVisit){
+            mVisit = agent->visits[move[i].w];
+         }
+      }
+      
+      //get all edges that are equal to min visits and add them
+      //to the array
+      for(i = 0, numLVisited = 0; i < numMoves; i++){
+         if(agent->visits[move[i].w] == mVisit){
+            lVisited[numLVisited] = move[i];
+            numLVisited++;
+         }
+      }
+      
+      
+      minWeight = malloc(sizeof(Edge) *numLVisited);
+      assert(minWeight != NULL);
+      //finding the minimum weight
+      if(numLVisited > 1){
+         mWeight = lVisited[0].weight;
+         for(i = 0; i < numLVisited; i++){
+            if(lVisited[i].weight < mWeight){
+               mWeight = lVisited[i].weight;;
+            }
+         }  
+         //add it to the array
+         for(i = 0, numMWeight = 0; i < numLVisited; i++){
+            if(lVisited[i].weight == mWeight){
+               minWeight[numMWeight] = lVisited[i];
+               numMWeight++;
+            }
+         }
+         //choosing based on the smallest vertex
+         if(numMWeight > 1){
+            turn = minWeight[0];
+            for(i = 0; i < numMWeight; i++){
+               if(minWeight[i].w < turn.w){
+                  turn = minWeight[i];
+               }
+            }
+         } else {
+            turn = minWeight[0];
+         } 
+      } else {
+         turn = lVisited[0];
+      }
+   
+   } else {
+      turn = move[0];
+   }
+   free(lVisited);
+   free(minWeight);
+   
+   return turn;
+}
+*/
+

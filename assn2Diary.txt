@@ -1,0 +1,59 @@
+Assignment 2 diary
+
+25/01
+Went through all the files to get a rough understanding
+Worked on the lab graph.c file since the code was almost the same
+Wrote a few black box test for testGraph.c
+
+26/01 
+started working on graph.c 
+the two implementation choices were between a list and matrix
+chose matrix since accessibility is easy compared to traversing a list
+Worked on the first few functions
+
+28/01
+Finished the functions given in the graph.c file
+Have to decide if I need to add any other functions will decide later
+
+31/01
+Working on main file
+Have to add extra function to graph file to store info in the graph
+Added function cityInfo
+Now to start on agent.c and finish the random strategy
+Random Strat done needed a few if statments 
+but have a few problems when in display that need to be fixed
+
+03/02
+started working on stage 1 Cheapest Least Visited
+using it as a static function
+done upto finding edges and adding them to the array
+and finding the minimum weight
+
+04/02
+Problems in display fixed in tut
+Note to self dont make files in windows and then transfer to unix
+Problem was the ^M at the end of each line in the files 
+hence not displaying correct details on screen
+Adding the edges visited with the minimum weight to an array
+and then choosing which path based on the smallest vertex
+
+06/02
+finished cheapest least Visited
+Fixing memory leaks
+Started on DFS 
+tried to see if I could just copy the dfs functions I wrote in lab 7 over to the graph.c file
+got a little complicated so I just ended up adding the dfs functions in the agent.c file
+Had to make a few tweaks to the function but not much of difference
+Made another static function for the DFSstrat like the Cheapest Least Visited
+Finished stage 2 of DFS and fixed memory leaks
+Also when testing Stage 0 noticed that I havent implemented the map command properly yet
+So have to work on that tomorrow
+Also had to fix remaining agents files that had the ^M using vi
+
+07/02
+Map command stuff fixed
+Started on Stage 3 least turns
+Taking Queue Files from lab 2 for this strategy
+Updated makeNextMove so that it could switch back to the original strategy if there is no thief in the location
+If I can finish Least Turns startegy by today will start on Bonus part to cover up for the loss in the prac exam
+

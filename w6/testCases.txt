@@ -1,0 +1,4 @@
+~cs1927/bin/assn2Model citiesLarge.data agentsA.data 100 0
+results in the detective 4 catching the thief in destination 0 in Hour 21.
+~cs1927/bin/assn2Model citiesLarge.data agentsB.data 100 0
+results detective 3 catching the thief in destination 7 in Hour 18.

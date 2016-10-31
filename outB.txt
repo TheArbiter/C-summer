@@ -1,0 +1,84 @@
+
+POLICE ACADEMY 1927
+
+Red alert! A thief is on the run.
+Agents, to your cars. You have 100 hours.
+
+Hour 0
+  T  D1  D2  D3  D4
+ 17  11  15  14  19 
+
+Enter command: Hour 1
+  T  D1  D2  D3  D4
+ 18   2   1  13  12 
+
+Hour 2
+  T  D1  D2  D3  D4
+ 17   1   0  14  19 
+
+Hour 3
+  T  D1  D2  D3  D4
+  7   1   5   6  12 
+
+Hour 4
+  T  D1  D2  D3  D4
+ 17   5   5   0  10 
+
+Hour 5
+  T  D1  D2  D3  D4
+  7   0   6   5  12 
+
+Hour 6
+  T  D1  D2  D3  D4
+ 17   8  14   5  19 
+
+Hour 7
+  T  D1  D2  D3  D4
+ 18   8  13   6  19 
+
+Hour 8
+  T  D1  D2  D3  D4
+ 17   0   8   0  12 
+
+Hour 9
+  T  D1  D2  D3  D4
+ 18   5  13   5  10 
+
+Hour 10
+  T  D1  D2  D3  D4
+ 17   1  13   1  12 
+
+Hour 11
+  T  D1  D2  D3  D4
+  7   1  14   1  10 
+
+Hour 12
+  T  D1  D2  D3  D4
+  0  15   6   2   3 
+
+Hour 13
+  T  D1  D2  D3  D4
+  0   1   5   1   3 
+
+Hour 14
+  T  D1  D2  D3  D4
+  7   5   3   5   5 
+
+Hour 15
+  T  D1  D2  D3  D4
+ 17   6  10   6   0 
+
+Hour 16
+  T  D1  D2  D3  D4
+ 18   6  10   6   8 
+
+Hour 17
+  T  D1  D2  D3  D4
+ 17   5  12   0  13 
+
+Hour 18
+  T  D1  D2  D3  D4
+  7   1  10   7   8 
+
+D3 caught the thief in madrid (7)
+YOU WIN - THIEF CAUGHT!

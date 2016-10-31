@@ -1,0 +1,96 @@
+
+POLICE ACADEMY 1927
+
+Red alert! A thief is on the run.
+Agents, to your cars. You have 100 hours.
+
+Hour 0
+  T  D1  D2  D3  D4
+ 11  17  13  18   7 
+
+Enter command: Hour 1
+  T  D1  D2  D3  D4
+  2   7  14  17  17 
+
+Hour 2
+  T  D1  D2  D3  D4
+ 11   0   6  18  18 
+
+Hour 3
+  T  D1  D2  D3  D4
+  2   5  14  17  17 
+
+Hour 4
+  T  D1  D2  D3  D4
+  1   0   6   7   7 
+
+Hour 5
+  T  D1  D2  D3  D4
+ 15   6   0  17   0 
+
+Hour 6
+  T  D1  D2  D3  D4
+  1   5   8  18   5 
+
+Hour 7
+  T  D1  D2  D3  D4
+  2   6   8   0   3 
+
+Hour 8
+  T  D1  D2  D3  D4
+ 11   6  13   5   5 
+
+Hour 9
+  T  D1  D2  D3  D4
+  2   5  14   1   1 
+
+Hour 10
+  T  D1  D2  D3  D4
+ 11   0  13   5   0 
+
+Hour 11
+  T  D1  D2  D3  D4
+  2   1  14   3   0 
+
+Hour 12
+  T  D1  D2  D3  D4
+ 11   0   6   3   7 
+
+Hour 13
+  T  D1  D2  D3  D4
+  2   6   5   5  17 
+
+Hour 14
+  T  D1  D2  D3  D4
+  2   5   0   6   7 
+
+Hour 15
+  T  D1  D2  D3  D4
+ 11   5   5   0  17 
+
+Hour 16
+  T  D1  D2  D3  D4
+  2   0   6   1  18 
+
+Hour 17
+  T  D1  D2  D3  D4
+  1   7   5   0  17 
+
+Hour 18
+  T  D1  D2  D3  D4
+  5  17   6   1   7 
+
+Hour 19
+  T  D1  D2  D3  D4
+  0   7   6  15  17 
+
+Hour 20
+  T  D1  D2  D3  D4
+  6  17   0   1   7 
+
+Hour 21
+  T  D1  D2  D3  D4
+  0  18   8   1   0 
+
+D4 caught the thief in sydney (0)
+YOU WIN - THIEF CAUGHT!

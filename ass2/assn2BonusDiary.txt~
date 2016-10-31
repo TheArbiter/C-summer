@@ -1,0 +1,4 @@
+Thief follows a modified least turns path to the goal. 
+If probability of encountering a detective at the current location is less compared to 
+encountering a detective moving, then stay otherwise go on to the the next vertex in the
+least turns. 

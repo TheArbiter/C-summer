@@ -1,0 +1,21 @@
+With random data set
+All 3 pivot choices perform equally well with the timing incresing by 4 times when compared to 10k and 20k
+and then doubling when the data set is doubled when compared to 20k and 40k
+Since all 3 pivots return a random pivot the timings arent so different
+
+With Reverse data set
+The Random Quicksort seems to perform the best compared to the 3 choices with MT close behind
+The Naive pivot performed the worse since it takes the worst case scenario 
+The Naive pivot performs almost close to O(N^2) increaments in the timings
+The MT Pivot doubles in timing as the data set doubles
+The Random Pivot is almost linear in timing when compared to 10k and 20k (0.75)
+but almost quadruples when compared to 20k to 40k (3.33)
+
+With Ordered data set
+Again the Random Quicksort seems to perform the best overall but gives the same result as the MT pivot in the 40k category
+As expected the Naive piovt performs the worst because it takes the worst case scenario
+In the timings the MT pivot doubles in timing as data set doubles
+The Random Pivot quadruples in timing as the data set doubles.
+
+Which is fair to say that for larger data sets the MT pivot will eventually perform better than the Random Pivot.
+In both the Reverse and Ordered data set 

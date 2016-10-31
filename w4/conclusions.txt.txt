@@ -1,0 +1,3 @@
+Sort A: Insertion (linear performance on ordered data)
+Sort B: Bogo Sort (nearly sorted takes a long time)
+Sort C: Selection Sort (tend to perform better than bubble sort)

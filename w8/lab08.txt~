@@ -1,0 +1,104 @@
+
+
+/*NO_REBALANCE*/ 
+dict 0: height = 12, time = 0, insert time = 0
+dict 1: 1776, 0.112, 0.06
+dict 2: 7105, 1.152, 0.872
+dict 3: 21315, 9.197, 4.788 
+dict 4: 63945, 1m5.664, 43.655
+dict 5: 98324, 2m39.678, 1m39.042
+
+/*REBALANCE_1*/
+dict 0: height = 3, time = 0, insert time = 0
+dict 1: 10, 0.036, 0.032
+dict 2: 12, 0.572, 0.612
+dict 3: 14, 3.284, 3.7
+dict 4: 15, 27.794, 30.354
+dict 5: 16, 1m6.572, 1m12.825 
+
+/*REBALANCE_100*/
+dict 0: height = 12, time = 0, insert time =0
+dict 1: 86, 0.008, 0
+dict 2: 17, 0.04, 0.032
+dict 3: 29, 0.2, 0.208
+dict 4: 60, 0.876, 0.560
+dict 5: 40, 1.292, 1.160
+
+/*REBALANCE_1000*/ 
+dict 0: height = 12, time = 0, insert time = 0
+dict 1: 785, 0.032, 0.036
+dict 2: 117, 0.148, 0.148
+dict 3: 329, 0.456, 0.452
+dict 4: 960, 1.392, 1.116
+dict 5: 340, 1.468, 1.556
+
+/*RANDOMISED*/ 
+dict 0: height = 5, time = 0, insert time = 0
+dict 1: 23, 0.004, 0.008
+dict 2: 27, 0.024, 0.008
+dict 3: 31, 0.04, 0.048
+dict 4: 38, 0.16, 0.088
+dict 5: 40, 0.24, 0.172
+
+/*SPLAY*/
+dict 0: height = 12, time = 0, insert time =0
+dict 1: 1776, 0.032, 0
+dict 2: 7105, 0.496, 0
+dict 3: 21315, 2.580, 0.012
+dict 4: 63945, 24.942, 0.032
+dict 5: 98324, 55.159, 0.052
+
+/**************************/
+
+the complexity(insert and search): weak ->fast
+No rebalance < rebalanced_1 <splay < rebalanced_1000 < rebalabanced_100 < random <splay
+
+the complexity(insert): weak->fast
+No rebalance < rebalanced_1 < rebalanced_1000 < rebalabanced_100 < random
+
+No rebalance 
+--> the slowest algoritm as it is creating a degenerate tree. 
+--> the worst case of inserting with O(n) complexity.
+
+Rebalancing increase the efficiency in inserting trees
+**
+REBALANCE_1 is the slowest rebalancing that the rebalabce the tree after every insertion,
+complexity is closer to O(logn)
+**
+however, the comlexity between rebalance_100 and 1000 is different while the function is insertion&search or only insertion
+
+
+
+/**********Hash table***********/
+
+dict 0: size = 10, Num Collisions = 7, Longest Chain = 6
+dict 0: size = 100, Num Collisions = 0, Longest Chain = 1
+dict 0: size = 1000, Num Collisions = 0, Longest Chain = 1
+dict 0: size = 10000, Num Collisions = 0, Longest Chain = 1
+
+dict 1: size = 10, Num Collisions = 1767, Longest Chain = 523
+dict 1: size = 100, Num Collisions = 1677, Longest Chain = 52
+dict 1: size = 1000, Num Collisions = 1038, Longest Chain = 10
+dict 1: size = 10000, Num Collisions = 161, Longest Chain = 3
+
+dict 2: size = 10, Num Collisions = 7096, Longest Chain = 2219
+dict 2: size = 100, Num Collisions = 7006, Longest Chain = 200
+dict 2: size = 1000, Num Collisions = 6122, Longest Chain = 40
+dict 2: size = 10000, Num Collisions = 2190, Longest Chain = 6
+
+dict 3: size = 10, Num Collisions = 21306, Longest Chain = 6616
+dict 3: size = 100, Num Collisions = 21216, Longest Chain = 594
+dict 3: size = 1000, Num Collisions = 20316, Longest Chain = 125
+dict 3: size = 10000, Num Collisions = 12897, Longest Chain = 12
+
+dict 4: size = 10, Num Collisions = 63936, Longest Chain = 20268
+dict 4: size = 100, Num Collisions = 63846, Longest Chain = 1753
+dict 4: size = 1000, Num Collisions = 62946, Longest Chain = 375
+dict 4: size = 10000, Num Collisions = 54012, Longest Chain = 23
+
+dict 5: size = 10, Num Collisions = 98315, Longest Chain = 46561
+dict 5: size = 100, Num Collisions = 98225, Longest Chain = 3199
+dict 5: size = 1000, Num Collisions = 97325, Longest Chain = 401
+dict 5: size = 10000, Num Collisions = 88329, Longest Chain = 38
+
+Verdict : hashtable should be more efficient so that the collisions are spread out more evenly amongst the buckets. 
